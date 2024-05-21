@@ -12,7 +12,6 @@ public class BarraSalud : MonoBehaviour
         slider.maxValue = health;
         slider.value = health;
 
-        fill.color = gradient.Evaluate(1f);
     }
 
     public void SetCurrentHealth(int health)

@@ -8,24 +8,29 @@ public class ControladorSalud : MonoBehaviour
 
     public BarraSalud barraSalud;
 
-    void Start()
+    private void Start()
     {
         currentHealth = maxHealth;
         barraSalud.SetMaxHealth(maxHealth);
     }
 
-    void Update()
-    {
-        // Damage player when we press the G key
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            TakeDamage(10);
-        }
-    }
+    //void Update()
+    //{
+    //    // Damage player when we press the G key
+    //    if (Input.GetKeyDown(KeyCode.G))
+    //    {
+    //        TakeDamage(10);
+    //    }
+    //}
 
-    void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+
+        if(currentHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
 
         barraSalud.SetCurrentHealth(currentHealth);
     }
