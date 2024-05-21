@@ -54,7 +54,7 @@ public class MAQUINAPERSONAJE : MonoBehaviour
         {
             case QuetzalStates.EXISTIENDO:
                 //Check for keyboard input
-                if (Input.GetKeyDown(KeyCode.O))
+                if (Input.GetKey(KeyCode.O))
                     changeState(QuetzalStates.ATACANDO);
 
                 if (0.0f != Input.GetAxis("Horizontal"))
