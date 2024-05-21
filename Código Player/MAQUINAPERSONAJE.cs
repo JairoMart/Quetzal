@@ -8,12 +8,12 @@ public class MAQUINAPERSONAJE : MonoBehaviour
     Animator animator;
     Transform transform;
     //animation states - the values in the animator conditions
-    enum QuetzalStates { EXISTIENDO, CORRIENDO, ATACANDO };
+    enum QuetzalStates { EXISTIENDO, CORRIENDO, ATACANDO, SUFRIENDO };
     //0, 1, 2, 3, 4, 5
     const string STATE_EXISTIENDO_NAME = "existiendo";
     enum Directions { LEFT, RIGHT, MAX_DIR };
     //0, 1, 2
-    Directions currentDirection = Directions.LEFT;
+    Directions currentDirection = Directions.RIGHT;
     QuetzalStates currentAnimationState = QuetzalStates.EXISTIENDO;
 
     void Start()
@@ -39,11 +39,11 @@ public class MAQUINAPERSONAJE : MonoBehaviour
             currentDirection = direction;
             switch (direction)
             {
-                case Directions.RIGHT:
-                    transform.Rotate(0, -180, 0);
-                    break;
                 case Directions.LEFT:
                     transform.Rotate(0, 180, 0);
+                    break;
+                case Directions.RIGHT:
+                    transform.Rotate(0, -180, 0);
                     break;
             }
         }
@@ -54,19 +54,19 @@ public class MAQUINAPERSONAJE : MonoBehaviour
         {
             case QuetzalStates.EXISTIENDO:
                 //Check for keyboard input
-                if (Input.GetKey(KeyCode.O))
+                if (Input.GetKey(KeyCode.K))
                     changeState(QuetzalStates.ATACANDO);
+
+                if (Input.GetKey(KeyCode.J))
+                    changeState(QuetzalStates.SUFRIENDO);
 
                 if (0.0f != Input.GetAxis("Horizontal"))
                     changeState(QuetzalStates.CORRIENDO);
                 break;
-            case QuetzalStates.CORRIENDO:
-                //Check for keyboard input
-                if (Input.GetKeyDown(KeyCode.O))
-                    changeState(QuetzalStates.ATACANDO);
 
-                if (0.0f != Input.GetAxis("Horizontal"))
-                    changeState(QuetzalStates.CORRIENDO);
+            case QuetzalStates.CORRIENDO:
+                if (Input.GetKey(KeyCode.K))
+                    changeState(QuetzalStates.ATACANDO);
                 break;
 
         }
@@ -79,22 +79,22 @@ public class MAQUINAPERSONAJE : MonoBehaviour
             //All states can change its direction any time
             if (Input.GetKey(KeyCode.D))
             {
-                changeDirection(Directions.LEFT);
+                changeDirection(Directions.RIGHT);
                 transform.Translate(Vector3.right * walkSpeed * Time.deltaTime);
             }
             else if (Input.GetKey(KeyCode.A))
             {
-                changeDirection(Directions.RIGHT);
+                changeDirection(Directions.LEFT);
                 transform.Translate(Vector3.right * walkSpeed * Time.deltaTime);
             }
             if (Input.GetKey(KeyCode.RightArrow))
             {
-                changeDirection(Directions.LEFT);
+                changeDirection(Directions.RIGHT);
                 transform.Translate(Vector3.right * walkSpeed * Time.deltaTime);
             }
             else if (Input.GetKey(KeyCode.LeftArrow))
             {
-                changeDirection(Directions.RIGHT);
+                changeDirection(Directions.LEFT);
                 transform.Translate(Vector3.right * walkSpeed * Time.deltaTime);
             }
         }
