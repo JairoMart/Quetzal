@@ -4,7 +4,6 @@ using UnityEngine.UI;
 public class BarraSalud : MonoBehaviour
 {
     public Slider slider;
-    public Gradient gradient;
     public Image fill;
 
     public void SetMaxHealth(int health)
@@ -18,7 +17,6 @@ public class BarraSalud : MonoBehaviour
     {
         slider.value = health;
 
-        fill.color = gradient.Evaluate(slider.normalizedValue);
     }
 
 }

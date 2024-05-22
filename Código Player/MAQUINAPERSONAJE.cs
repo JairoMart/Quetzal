@@ -69,6 +69,12 @@ public class MAQUINAPERSONAJE : MonoBehaviour
                     changeState(QuetzalStates.ATACANDO);
                 break;
 
+            case QuetzalStates.ATACANDO:
+                if (0.0f != Input.GetAxis("Horizontal"))
+                    changeState(QuetzalStates.CORRIENDO);
+
+                break;
+
         }
         checkDir();
         if (!Input.anyKey)

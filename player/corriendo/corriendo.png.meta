@@ -150,9 +150,9 @@ TextureImporter:
       name: corriendo_3
       rect:
         serializedVersion: 2
-        x: 388
+        x: 401
         y: 199
-        width: 167
+        width: 154
         height: 115
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -171,9 +171,9 @@ TextureImporter:
       name: corriendo_5
       rect:
         serializedVersion: 2
-        x: 578
+        x: 591
         y: 199
-        width: 167
+        width: 154
         height: 115
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -192,9 +192,9 @@ TextureImporter:
       name: corriendo_7
       rect:
         serializedVersion: 2
-        x: 764
+        x: 809
         y: 198
-        width: 140
+        width: 95
         height: 112
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -213,9 +213,9 @@ TextureImporter:
       name: corriendo_9
       rect:
         serializedVersion: 2
-        x: 954
+        x: 999
         y: 198
-        width: 140
+        width: 95
         height: 112
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -360,9 +360,9 @@ TextureImporter:
       name: corriendo_18
       rect:
         serializedVersion: 2
-        x: 772
+        x: 815
         y: 22
-        width: 135
+        width: 92
         height: 111
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -381,9 +381,9 @@ TextureImporter:
       name: corriendo_19
       rect:
         serializedVersion: 2
-        x: 962
+        x: 1005
         y: 22
-        width: 135
+        width: 92
         height: 111
       alignment: 7
       pivot: {x: 0.5, y: 0}

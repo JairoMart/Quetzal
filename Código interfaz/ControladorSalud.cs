@@ -14,14 +14,6 @@ public class ControladorSalud : MonoBehaviour
         barraSalud.SetMaxHealth(maxHealth);
     }
 
-    //void Update()
-    //{
-    //    // Damage player when we press the G key
-    //    if (Input.GetKeyDown(KeyCode.G))
-    //    {
-    //        TakeDamage(10);
-    //    }
-    //}
 
     public void TakeDamage(int damage)
     {
@@ -32,6 +24,6 @@ public class ControladorSalud : MonoBehaviour
             Destroy(gameObject);
         }
 
-        barraSalud.SetCurrentHealth(currentHealth);
+       
     }
 }
