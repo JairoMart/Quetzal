@@ -15,9 +15,9 @@ public class Enemigo : MonoBehaviour
  
     public void TomarDaño(float daño)
     {
-       gameObject.GetComponent<SpriteRenderer>().color=new Color(vida/100f, vida/100f, 1, 1);
+       gameObject.GetComponent<SpriteRenderer>().color=new Color(1, vida/100f, vida/100f, 1);
         vida -= daño;
-
+        animator.SetBool("daño", true);
 
 
         if(vida <= 0)
@@ -25,12 +25,14 @@ public class Enemigo : MonoBehaviour
          //   atacando = false; 
          //  Destroy(gameObject);
             Muerte();
+
             
         }
     }
     private void Muerte()
     {
-        animator.SetTrigger("muriendo");
+        animator.SetBool("muerte", true);
+        
     }
 
 }
