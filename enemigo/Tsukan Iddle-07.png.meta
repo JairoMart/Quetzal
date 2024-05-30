@@ -1,0 +1,651 @@
+fileFormatVersion: 2
+guid: e216c69cc72efe040b569449be1287ac
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 437
+        width: 101
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187f6c75a3d3e31409b9f962ac18650b
+      internalID: -1695153579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 437
+        width: 101
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d0428cc122e3b4581bc7006df90092
+      internalID: 1726872463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_2
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 437
+        width: 101
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df391ac7dc5f830408a5b6e3bfa82865
+      internalID: 807310799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_3
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 437
+        width: 102
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06c55104b3f0ab4692e1c92f93aeda0
+      internalID: 1604551577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_4
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 437
+        width: 102
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc1fa0d396390c4691e780584af00f5
+      internalID: 589839629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_5
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 437
+        width: 102
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e334b4a052a29a45ac9a3e82d367799
+      internalID: -67127354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_6
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 293
+        width: 102
+        height: 133
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07459dd5e7b560a4cae1191f5cb30d09
+      internalID: -1911488809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 293
+        width: 102
+        height: 133
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249c7ed25be2fd84d82b688d3e07da89
+      internalID: -1960651595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_8
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 293
+        width: 102
+        height: 133
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52cc8c57678036478adef23945f7eb0
+      internalID: -113913493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_9
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 293
+        width: 115
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390a50b9ccb3f724eb430bb7570e72e8
+      internalID: 2020861496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_10
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 293
+        width: 115
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4842add567c83484182858ad344de014
+      internalID: -846152868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_11
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 292
+        width: 124
+        height: 112
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f1406d8fb5b0941a472d42b58c883d
+      internalID: -657695084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 149
+        width: 124
+        height: 112
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a568871b122a38f448f6a1dd8ce28614
+      internalID: -417942849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 150
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e73c9f32928c8f4f94800000b6eb61a
+      internalID: -152116839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_14
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 150
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9f1dc516c79c44bb1184cb896a0f8e
+      internalID: -1763119024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_15
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 149
+        width: 124
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec575a0ee21c50e4389f3ff81526b285
+      internalID: -244583570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_16
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 149
+        width: 124
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf60b1af4284af4ca9d6a52e35f1dbe
+      internalID: -588991700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_17
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 149
+        width: 124
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ca6e0b5c639464d8aae0b78776079f
+      internalID: 308288903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_18
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 6
+        width: 113
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb2696f679c20144830a94519e4b5b5
+      internalID: -445261825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_19
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 6
+        width: 113
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0e184026c0a214189ca4cd5247e21f
+      internalID: 199845058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_20
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 6
+        width: 113
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f70e6b9123d9ad43affd4c3353c53d9
+      internalID: 1768772317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_21
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 6
+        width: 101
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4fb74e9c5718140976f25a9ef16308
+      internalID: -455059132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_22
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 6
+        width: 101
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc988fa9655dae43889c6683a620358
+      internalID: 1035141345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsukan Iddle-07_23
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 6
+        width: 101
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b403bcb597ee124e9050e35e11d6db3
+      internalID: 1377708096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: aac15bdfe866d9f4d8ce4842435d6c2b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tsukan Iddle-07_0: -1695153579
+      Tsukan Iddle-07_1: 1726872463
+      Tsukan Iddle-07_10: -846152868
+      Tsukan Iddle-07_11: -657695084
+      Tsukan Iddle-07_12: -417942849
+      Tsukan Iddle-07_13: -152116839
+      Tsukan Iddle-07_14: -1763119024
+      Tsukan Iddle-07_15: -244583570
+      Tsukan Iddle-07_16: -588991700
+      Tsukan Iddle-07_17: 308288903
+      Tsukan Iddle-07_18: -445261825
+      Tsukan Iddle-07_19: 199845058
+      Tsukan Iddle-07_2: 807310799
+      Tsukan Iddle-07_20: 1768772317
+      Tsukan Iddle-07_21: -455059132
+      Tsukan Iddle-07_22: 1035141345
+      Tsukan Iddle-07_23: 1377708096
+      Tsukan Iddle-07_3: 1604551577
+      Tsukan Iddle-07_4: 589839629
+      Tsukan Iddle-07_5: -67127354
+      Tsukan Iddle-07_6: -1911488809
+      Tsukan Iddle-07_7: -1960651595
+      Tsukan Iddle-07_8: -113913493
+      Tsukan Iddle-07_9: 2020861496
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

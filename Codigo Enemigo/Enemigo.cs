@@ -6,6 +6,7 @@ public class Enemigo : MonoBehaviour
 {
     [SerializeField] private float vida;
     private Animator animator;
+    //public bool atacando;
 
     private void Start()
     {
@@ -21,6 +22,7 @@ public class Enemigo : MonoBehaviour
 
         if(vida <= 0)
         {
+         //   atacando = false; 
          //  Destroy(gameObject);
             Muerte();
             

@@ -14,7 +14,7 @@ public class EnemigoComportamiento : MonoBehaviour
     public bool atacando;
 
     public float rango_vision;
-    public float rango_ataque;
+   // public float rango_ataque;
     public GameObject rango;
    // public GameObject Hit;
 
