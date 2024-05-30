@@ -5,21 +5,30 @@ using UnityEngine;
 public class Enemigo : MonoBehaviour
 {
     [SerializeField] private float vida;
-    //private Animator animator;
+    private Animator animator;
 
-    //private void Start()
-    //{
-    //    animator = GetComponent<animator>();
-    //}
-
-    public void TomarDaño(float daño)
+    private void Start()
     {
-        vida -= daño;
+       animator = GetComponent<Animator>();
+    }
+ 
+    public void TomarDaÃ±o(float daÃ±o)
+    {
+       gameObject.GetComponent<SpriteRenderer>().color=new Color(vida/100f, vida/100f, 1, 1);
+        vida -= daÃ±o;
+
+
 
         if(vida <= 0)
         {
-            Destroy(gameObject);
+         //  Destroy(gameObject);
+            Muerte();
+            
         }
+    }
+    private void Muerte()
+    {
+        animator.SetTrigger("muriendo");
     }
 
 }

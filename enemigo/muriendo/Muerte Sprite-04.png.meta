@@ -1,0 +1,729 @@
+fileFormatVersion: 2
+guid: 9cd7175edb815884eabfbe190eca6488
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Muerte Sprite-04_0
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 332
+        width: 120
+        height: 133
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f97411914a610349b6fdd7d98562cbb
+      internalID: -930340676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_1
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 332
+        width: 119
+        height: 133
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b096f81aa72e040a041b08bbd62206
+      internalID: 1747545219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_2
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 332
+        width: 123
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60857830882e2ac4d86acf2fad008b01
+      internalID: 1060321277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_3
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 332
+        width: 122
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f8e5517d819c94ea79d056b965b0b5
+      internalID: 848362500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_4
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 332
+        width: 117
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ede9a4e59438045809ec660cd67441
+      internalID: 44611111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_5
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 332
+        width: 117
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45732c26dfe90e4bbb9eade8b6e90f1
+      internalID: -213907750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_6
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 332
+        width: 120
+        height: 127
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d1bc2e79a95974b8876ee6571c2d5b
+      internalID: -1384021562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_7
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 332
+        width: 120
+        height: 127
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a803bf8c45dcc545a83b30b117aa30a
+      internalID: 454203284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_8
+      rect:
+        serializedVersion: 2
+        x: 2842
+        y: 332
+        width: 120
+        height: 127
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15708c2b28d670145b8ec4ae34385da0
+      internalID: 1720907053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_9
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 169
+        width: 139
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fffc49d65e71084784506d6514f6283
+      internalID: -1502599936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_10
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 169
+        width: 139
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad257c32eebf26408b8e72f2225f805
+      internalID: -1919770142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_11
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 170
+        width: 173
+        height: 118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f731d5e64adb95046800e53718dc8a12
+      internalID: -1143857016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_12
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 170
+        width: 172
+        height: 118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09544e085c83c4747a77ee17a0d6977b
+      internalID: 1226100532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_13
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 176
+        width: 259
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3eb84f1fca97c4b8724040184aa583
+      internalID: 1748792512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_14
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 176
+        width: 275
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949a08aa5c54faf449a02f91199dce32
+      internalID: -2081439035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_15
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 173
+        width: 279
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b4eeb8d872a8245b8289295017f794
+      internalID: 1232193792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_16
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 173
+        width: 279
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0026bf6cd435aaa418f264f2b47fe8f8
+      internalID: 2056051075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_18
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 173
+        width: 244
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d43828b469a6343a82cf6cb57086f7
+      internalID: -1439301758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_20
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 10
+        width: 244
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aeadd12e5f1dbd4e9b3883c7baa44c1
+      internalID: 2144983876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_22
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 10
+        width: 244
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d681f32e8915ba340a2d1217820e98af
+      internalID: 967916529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_24
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 10
+        width: 244
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b837bd5d431d74b81754dc2d3512b2
+      internalID: 1421222735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_26
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 10
+        width: 244
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a20930b38b7b5429dbaa092fec14e8
+      internalID: 1346672660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_28
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 10
+        width: 244
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d165fa732b013b34bb87c7b8e20d2f3a
+      internalID: 182022218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_30
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 10
+        width: 244
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1496522c9f9eb4d85fbb2f374c8c94
+      internalID: 1873110833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_31
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 10
+        width: 244
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cd8a14bc044ad49b34542ce8aa1927
+      internalID: -1722218564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_32
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 10
+        width: 244
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d813f58988938534bb9649d356ae8ebd
+      internalID: 1761764091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte Sprite-04_33
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 10
+        width: 244
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0551fdabaf07842a03cf8c9a221d3f
+      internalID: 150919073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 199ecfc4a73a81c4aa27e008c5e7b1b3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Muerte Sprite-04_0: -930340676
+      Muerte Sprite-04_1: 1747545219
+      Muerte Sprite-04_10: -1919770142
+      Muerte Sprite-04_11: -1143857016
+      Muerte Sprite-04_12: 1226100532
+      Muerte Sprite-04_13: 1748792512
+      Muerte Sprite-04_14: -2081439035
+      Muerte Sprite-04_15: 1232193792
+      Muerte Sprite-04_16: 2056051075
+      Muerte Sprite-04_17: -1331098641
+      Muerte Sprite-04_18: -1439301758
+      Muerte Sprite-04_19: -56331650
+      Muerte Sprite-04_2: 1060321277
+      Muerte Sprite-04_20: 2144983876
+      Muerte Sprite-04_21: 351777160
+      Muerte Sprite-04_22: 967916529
+      Muerte Sprite-04_23: 1534043528
+      Muerte Sprite-04_24: 1421222735
+      Muerte Sprite-04_25: -1707530149
+      Muerte Sprite-04_26: 1346672660
+      Muerte Sprite-04_27: 1727413492
+      Muerte Sprite-04_28: 182022218
+      Muerte Sprite-04_29: 152544702
+      Muerte Sprite-04_3: 848362500
+      Muerte Sprite-04_30: 1873110833
+      Muerte Sprite-04_31: -1722218564
+      Muerte Sprite-04_32: 1761764091
+      Muerte Sprite-04_33: 150919073
+      Muerte Sprite-04_34: 1763536377
+      Muerte Sprite-04_35: 1044929269
+      Muerte Sprite-04_36: 2095759962
+      Muerte Sprite-04_37: 1622488104
+      Muerte Sprite-04_38: 831024211
+      Muerte Sprite-04_4: 44611111
+      Muerte Sprite-04_5: -213907750
+      Muerte Sprite-04_6: -1384021562
+      Muerte Sprite-04_7: 454203284
+      Muerte Sprite-04_8: 1720907053
+      Muerte Sprite-04_9: -1502599936
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,7 +6,7 @@ public class CombateCaC : MonoBehaviour
 {
     [SerializeField] private Transform controladorGolpe;
     [SerializeField] private float radioGolpe;
-    [SerializeField] private float dañoGolpe;
+    [SerializeField] private float daÃ±oGolpe;
 
     private Animator animator;
 
@@ -33,7 +33,7 @@ public class CombateCaC : MonoBehaviour
         {
             if (colisionador.CompareTag("Enemigo"))
             {
-                colisionador.transform.GetComponent<Enemigo>().TomarDaño(dañoGolpe);
+                colisionador.transform.GetComponent<Enemigo>().TomarDaÃ±o(daÃ±oGolpe);
             }
         }
     }
