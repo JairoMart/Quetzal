@@ -526,7 +526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueArea: {fileID: 1570609060}
   isDialogueActive: 0
-  typingSpeed: 0.05
+  typingSpeed: 0.03
   animator: {fileID: 283606743}
 --- !u!114 &283606745
 MonoBehaviour:
@@ -3136,7 +3136,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.7056494, y: -2.1400092}
+  m_Offset: {x: -1.2390784, y: -2.1400092}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3147,7 +3147,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.7863445, y: 4.118119}
+  m_Size: {x: 8.799297, y: 4.118119}
   m_EdgeRadius: 0
 --- !u!1 &1392065909
 GameObject:
@@ -4459,7 +4459,7 @@ GameObject:
   - component: {fileID: 1715485967}
   - component: {fileID: 1715485966}
   m_Layer: 0
-  m_Name: Tsukan Iddle-07_0
+  m_Name: Enemigo
   m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4597,10 +4597,10 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.63}
+  m_Offset: {x: -0.5226104, y: 0.63}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 1, y: 0}
     oldSize: {x: 1.01, y: 1.26}
     newSize: {x: 1.01, y: 1.26}
     adaptiveTilingThreshold: 0.5
@@ -4608,7 +4608,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.01, y: 1.26}
+  m_Size: {x: 1.0395823, y: 1.26}
   m_EdgeRadius: 0
 --- !u!50 &1715485967
 Rigidbody2D:
