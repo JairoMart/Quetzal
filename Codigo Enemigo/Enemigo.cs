@@ -15,7 +15,7 @@ public class Enemigo : MonoBehaviour
  
     public void TomarDaño(float daño)
     {
-       gameObject.GetComponent<SpriteRenderer>().color=new Color(1, vida/100f, vida/100f, 1);
+       gameObject.GetComponent<SpriteRenderer>().color=new Color(73, vida/100f, vida/100f, 1);
         vida -= daño;
         animator.SetBool("daño", true);
 
