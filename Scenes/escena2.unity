@@ -361,8 +361,8 @@ GameObject:
   - component: {fileID: 283606742}
   - component: {fileID: 283606746}
   - component: {fileID: 283606745}
-  - component: {fileID: 283606744}
   - component: {fileID: 283606743}
+  - component: {fileID: 283606747}
   m_Layer: 5
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -382,7 +382,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1539028645}
+  - {fileID: 464671901}
   - {fileID: 1632635513}
   - {fileID: 1570609059}
   m_Father: {fileID: 1526672699}
@@ -414,22 +414,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &283606744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 283606741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 587cc6d92e13c8d4c821007135a6b948, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueArea: {fileID: 1570609060}
-  isDialogueActive: 0
-  typingSpeed: 0.05
-  animator: {fileID: 283606743}
 --- !u!114 &283606745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -468,6 +452,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 283606741}
   m_CullTransparentMesh: 1
+--- !u!114 &283606747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283606741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3f51018f8143eb49af5d91f1023f934, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterIcon2: {fileID: 464671902}
+  dialogueArea2: {fileID: 1570609060}
+  isDialogueActive: 0
+  typingSpeed: 0.05
+  animator: {fileID: 283606743}
 --- !u!1 &409146766
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,6 +639,82 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &464671900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 464671901}
+  - component: {fileID: 464671903}
+  - component: {fileID: 464671902}
+  m_Layer: 5
+  m_Name: header
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &464671901
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464671900}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 283606742}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 70, y: 36}
+  m_SizeDelta: {x: 6.1, y: 0.84}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &464671902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464671900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &464671903
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464671900}
+  m_CullTransparentMesh: 1
 --- !u!1 &507218419
 GameObject:
   m_ObjectHideFlags: 0
@@ -2130,82 +2207,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1539028644
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1539028645}
-  - component: {fileID: 1539028647}
-  - component: {fileID: 1539028646}
-  m_Layer: 5
-  m_Name: Header
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1539028645
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1539028644}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 283606742}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 24, y: 35}
-  m_SizeDelta: {x: 510, y: 70}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1539028646
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1539028644}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d50f60f33e95e414380ee165a05c94c0, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1539028647
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1539028644}
-  m_CullTransparentMesh: 1
 --- !u!1 &1540960597
 GameObject:
   m_ObjectHideFlags: 0
@@ -2877,7 +2878,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 283606744}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
         m_MethodName: DisplayNextDialogueLine
         m_Mode: 1
@@ -2998,7 +2999,7 @@ GameObject:
   - component: {fileID: 1706411094}
   - component: {fileID: 1706411093}
   - component: {fileID: 1706411092}
-  - component: {fileID: 1706411091}
+  - component: {fileID: 1706411095}
   m_Layer: 0
   m_Name: AreaTexto
   m_TagString: Untagged
@@ -3006,28 +3007,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1706411091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1706411090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fec80b1d03fd3d4c918340be6d40ca2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    dialogueLines:
-    - line: "La vegetaci\xF3n de los alrededores est\xE1 mustia\u2026 Qu\xE9 extra\xF1o.\r"
-    - line: "Las paredes del templo tampoco parecen tener un buen color. \xBFSe est\xE1\u2026
-        cayendo?"
-    - line: 'No, no puede ser. Eso es imposible. '
-    - line: '"Suspiro"'
-    - line: "Espero que Quetzalc\xF3atl est\xE9 de buen humor. La aldea no aguantar\xE1
-        mucho m\xE1s esta plaga de hambruna y enfermedades."
-    - line: "Por favor\u2026 Necesito que me escuches una vez m\xE1s."
 --- !u!50 &1706411092
 Rigidbody2D:
   serializedVersion: 4
@@ -3090,6 +3069,59 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1706411095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706411090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d5b90a81a058d3479a2fdb7626a9fa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue2:
+    dialogueLines2:
+    - character2:
+        icon2: {fileID: 21300000, guid: f0cc62e235f2ef34a82c9dbb5484c97f, type: 3}
+      line: '*RIsita*'
+    - character2:
+        icon2: {fileID: 21300000, guid: f0cc62e235f2ef34a82c9dbb5484c97f, type: 3}
+      line: "\xA1Menudo momento ha decidido el muchacho refugiarse en el seno de
+        Quetzalco\xE1tl!"
+    - character2:
+        icon2: {fileID: 21300000, guid: 318e1251ac97a794bbd551903f76f4c3, type: 3}
+      line: "Hubiera sido m\xE1s oportuno venir mientras derrotaban a Cipactli."
+    - character2:
+        icon2: {fileID: 21300000, guid: d50f60f33e95e414380ee165a05c94c0, type: 3}
+      line: "(Pensando). Mira que lo sab\xEDa."
+    - character2:
+        icon2: {fileID: 21300000, guid: d50f60f33e95e414380ee165a05c94c0, type: 3}
+      line: "\xBFPor qu\xE9 eso, guardianes del templo? \xBFEst\xE1 de mal humor
+        el dios de la vida y el conocimiento?"
+    - character2:
+        icon2: {fileID: 21300000, guid: f0cc62e235f2ef34a82c9dbb5484c97f, type: 3}
+      line: "*Risita.* \xBFY qui\xE9nes somos nosotros para facilitarte tal informaci\xF3n?"
+    - character2:
+        icon2: {fileID: 21300000, guid: 318e1251ac97a794bbd551903f76f4c3, type: 3}
+      line: "Vete, mortal, pues el dios de la vida y el conocimiento no est\xE1 ni
+        visible ni contento con los visitantes el d\xEDa de hoy."
+    - character2:
+        icon2: {fileID: 21300000, guid: f0cc62e235f2ef34a82c9dbb5484c97f, type: 3}
+      line: "Desde luego, \xBFc\xF3mo va a estar ni contento ni molesto al recibir
+        una visita, si por estar ni est\xE1?"
+    - character2:
+        icon2: {fileID: 21300000, guid: d50f60f33e95e414380ee165a05c94c0, type: 3}
+      line: "(Pensando) \xBFC\xF3mo? \xBFNo est\xE1? \xBFC\xF3mo no va\u2026?"
+    - character2:
+        icon2: {fileID: 21300000, guid: 318e1251ac97a794bbd551903f76f4c3, type: 3}
+      line: "Veo la confusi\xF3n en tu semblante, joven. Pero no es ni obligaci\xF3n
+        ni deber nuestro darte  una raz\xF3n de su ausencia. "
+    - character2:
+        icon2: {fileID: 21300000, guid: 318e1251ac97a794bbd551903f76f4c3, type: 3}
+      line: "Vete, o la ira de Quetzalc\xF3atl caer\xE1 sobre ti y tus peticiones
+        insolentes."
 --- !u!1 &1883161335
 GameObject:
   m_ObjectHideFlags: 0

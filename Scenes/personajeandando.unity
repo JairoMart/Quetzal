@@ -4377,7 +4377,7 @@ MonoBehaviour:
     - line: "Las paredes del templo tampoco parecen tener un buen color. \xBFSe est\xE1\u2026
         cayendo?"
     - line: 'No, no puede ser. Eso es imposible. '
-    - line: '"Suspiro"'
+    - line: '*Suspiro*'
     - line: "Espero que Quetzalc\xF3atl est\xE9 de buen humor. La aldea no aguantar\xE1
         mucho m\xE1s esta plaga de hambruna y enfermedades."
     - line: "Por favor\u2026 Necesito que me escuches una vez m\xE1s."
