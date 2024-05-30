@@ -5,6 +5,7 @@ using UnityEngine;
 public class RangoEnemigo2D : MonoBehaviour
 {
     public Animator ani;
+
      public EnemigoComportamiento enemigo;
 
     void OnTriggerEnter2D(Collider2D coll)
@@ -16,13 +17,13 @@ public class RangoEnemigo2D : MonoBehaviour
            ani.SetBool("attack", true);
            // ani.SetBool("daño", false);
            enemigo.atacando = true;
-           GetComponent<BoxCollider2D>().enabled = false;            
+           GetComponent<BoxCollider2D>().enabled = false;
         }
+        
     }
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame

@@ -2696,6 +2696,7 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 0
   barraSalud: {fileID: 1553360737}
+  ani: {fileID: 1101817636}
 --- !u!114 &1101817643
 MonoBehaviour:
   m_ObjectHideFlags: 0
