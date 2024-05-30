@@ -467,7 +467,7 @@ MonoBehaviour:
   characterIcon2: {fileID: 464671902}
   dialogueArea2: {fileID: 1570609060}
   isDialogueActive: 0
-  typingSpeed: 0.05
+  typingSpeed: 0.03
   animator: {fileID: 283606743}
 --- !u!1 &409146766
 GameObject:
