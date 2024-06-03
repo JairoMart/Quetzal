@@ -3085,7 +3085,7 @@ MonoBehaviour:
     dialogueLines2:
     - character2:
         icon2: {fileID: 21300000, guid: f0cc62e235f2ef34a82c9dbb5484c97f, type: 3}
-      line: '*RIsita*'
+      line: '*Risita*'
     - character2:
         icon2: {fileID: 21300000, guid: f0cc62e235f2ef34a82c9dbb5484c97f, type: 3}
       line: "\xA1Menudo momento ha decidido el muchacho refugiarse en el seno de
